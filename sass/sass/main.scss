@@ -1,0 +1,31 @@
+/*! 
+ * Nome do projeto
+ *
+ * Copyright 2013 Ogilvy & Mather
+ * Desenvolvido por Autor
+ */
+
+// Variáveis e mixins
+@import "tools/variables"; 
+@import "tools/mixins";
+
+// Base
+@import "base/reset"; 
+@import "base/base";
+@import "base/type";
+
+// Layout
+@import "layout/grid";
+
+// Modules
+@import "modules/buttons";
+@import "modules/icons";
+@import "modules/menus";
+@import "modules/pagination";
+@import "modules/tables";
+
+// States
+@import "states/states";
+
+// Utilitarios
+@import "tools/utilities";
